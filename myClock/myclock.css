@@ -1,0 +1,10 @@
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.js-myClock {
+    text-align: center;
+    margin-top: 200px;
+}
