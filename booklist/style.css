@@ -1,0 +1,84 @@
+body {
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: #fcdb70;
+    color: white;
+
+}
+h1,h2 {
+    font-weight: normal;
+}
+#wrapper {
+    width:90%;
+    max-width:960px;
+    margin: 20px auto;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow:hidden;
+    
+}
+
+#page-banner {
+    padding: 10px 0;
+    font-size: large;
+}
+#page-banner h1, #page-banner p {
+    width:100%;
+    text-align: center;
+    margin:10px 0;
+}
+#page-banner input {
+   outline:none;
+    width:90%;
+    max-width:300px;
+    margin:20px auto;
+    display:block;
+    padding:8px;
+    font-size:16px;
+    border-radius: 2rem;
+    border: solid whitesmoke;
+    font-style: italic;
+}
+#book-list, #add-book {
+    margin:30px;
+}
+#book-list ul {
+    list-style-type: none;
+    padding:0;
+}
+#book-list li {
+    padding:20px;
+    border-left:5px solid #ddd;
+    margin: 20px 10px;
+}
+
+button {
+    font-size: 17px;
+    margin: 10px;
+    border: none;
+    color:gray;
+    padding: 8px 15px;
+    border-radius: 100px;
+    outline:none;
+}
+#add-book input{
+    width:90%;
+    outline:none;
+    max-width:300px;
+    margin:20px auto;
+    display:inline-block;
+    padding:8px;
+    font-size:16px;
+    border-radius: 2rem;
+    border: solid whitesmoke;
+    font-style: italic;
+}
+
+.delete {
+    float:right;
+    background: white;
+    padding:6px;
+    border-radius: 4px;
+}
