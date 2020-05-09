@@ -75,7 +75,7 @@ button:hover {
     margin-left: 20px;
     
 }
-.deleteBtn {
+.deleteBtn{
     float:right;
     margin-right: 100px;
     padding:5px 15px;
@@ -85,7 +85,16 @@ button:hover {
     background-color:#ffeaa7;
   
 }
-.deleteBtn:hover {
+.doneBtn{
+    float:right;
+    margin-right: 20px;
+    padding:5px 15px;
+    border:2px solid #fdcb6e;
+    border-radius: 20px;
+    color:#e17055;
+    background-color:#ffeaa7;
+}
+.deleteBtn:hover , .doneBtn {
     cursor: pointer;
 }
 h2 {
