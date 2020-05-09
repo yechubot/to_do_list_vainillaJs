@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href = "style.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Covered+By+Your+Grace&family=Dancing+Script&family=Lexend+Deca&display=swap" rel="stylesheet">
         <title>JS dom tutorial</title>
 </head>
 <body>
@@ -40,9 +40,25 @@
        </ul>
        </div>
     <form id ="add-book">
+        <input type = "checkbox" id = "hide" />
+        <label for = "hide">Hide all books</label>
         <input type ="text" placeholder="Add a book"/>
         <button>Add</button>
     </form>
+    <div id="tabbed-content">
+        <ul class="tabs">
+          <li data-target="#about" class="active">About</li>
+          <li data-target="#contact">Contact</li>
+        </ul>
+        <div class="panel active" id="about">
+          <p>Content for about tab...</p>
+          <p>content content </p>
+        </div>
+        <div class="panel" id="contact">
+          <p>Content for contact tab...</p>
+          <p>panel panel</p>
+        </div>
+      </div>
     </div>
     <script src = "app.js"></script>
     </body>
