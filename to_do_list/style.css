@@ -1,0 +1,108 @@
+body{
+    width: 90%;
+    margin:30px auto;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'DM Mono', monospace;
+   
+}
+#wrapper {
+    background-color: #ffeaa7;
+    max-width: 900px;
+    border: 2px solid #fdcb6e;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    margin-top: 0;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-top:20px;
+    padding-bottom:15px;
+    margin-bottom:0;
+}
+#add {
+    text-align: center;
+    color:#e17055;
+}
+
+input {
+    outline:none;
+    padding:5px 12px;
+    height: 20px;
+    width: 200px;
+    font-style: italic;
+    font-size:15px;
+    border:2px solid #fdcb6e;
+    border-radius: 20px;
+    color:#2d3436;
+}
+button {
+    font-size:15px;
+    margin-left: 15px;
+    padding:5px 15px;
+    border:2px solid #fdcb6e;
+    border-radius: 25px;
+    background-color:#ffeaa7;
+    color:#e17055;
+    outline:none;
+    
+}
+button:hover {
+    cursor: pointer;
+}
+#to-dos {
+    margin: 20px auto;
+    padding: 0 0 20px;
+    overflow: hidden;
+}
+
+#to-dos li {
+    border-left: 5px solid #e17055;
+    margin: 20px 10px; /* to have space between lines*/
+    list-style: none;
+    color: #2d3436;
+    
+}
+
+#to-dos li:hover {
+    border-color: #fdcb6e;
+}
+
+.lists {
+    margin-left: 20px;
+    
+}
+.deleteBtn {
+    float:right;
+    margin-right: 100px;
+    padding:5px 15px;
+    border:2px solid #fdcb6e;
+    border-radius: 20px;
+    color:#e17055;
+    background-color:#ffeaa7;
+  
+}
+.deleteBtn:hover {
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    color:#e17055;
+}
+#done li {
+    border-left: 5px solid #00b894;
+    margin: 20px 10px; /* to have space between lines*/
+    list-style: none;
+    color: #2d3436;
+    
+}
+.done-list {
+    margin-left: 20px;
+}
+
+#done li:hover{
+    border-color: #74b9ff;
+}
