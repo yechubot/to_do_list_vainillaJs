@@ -48,16 +48,27 @@ const doneList = document.querySelector('#done ul');
 list.addEventListener('click',function(e){
 
     if(e.target.className == 'doneBtn'){
-       
-        const li = e.target.parentElement;
-        doneList.appendChild(li);
+       let li = e.target.parentNode;
+       let classBtn = e.target.parentNode.querySelector('.doneBtn');
+       classBtn.style.display = 'none';
+       doneList.append(li);
+      /* let doneBtn = e.target.parentNode.querySelector('.doneBtn')
+       doneBtn.remove();
+       doneList.append(li);*/
         
         // hide done button when it moved to done! part..
         
-
-        /*const classBtn = doneList.getElementsByClassName('doneBtn');
-        classBtn.style.display = 'none'; - why it doesn't work?! :( */ 
-    }
+        /*
+        const classBtn = doneList.getElementsByClassName('doneBtn');
+        classBtn.style.display = 'none'; - doesn't work 
+        this works --- 
+        let classBtn = e.target.parentNode.querySelector('.doneBtn');
+        classBtn.style.display = 'none';
+        doneList.append(li); 
+        */
+        
+    }  
+    
 });
 
 //delete done-lists
