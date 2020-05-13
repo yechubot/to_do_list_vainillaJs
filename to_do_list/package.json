@@ -1,0 +1,17 @@
+{
+  "name": "to_do_list",
+  "version": "1.0.0",
+  "description": "to do list!",
+  "main": "app.js",
+  "scripts": {
+    "test": "gotta do it"
+  },
+  "keywords": [
+    "vanilla",
+    "Js",
+    "yechubot",
+    "fun"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
